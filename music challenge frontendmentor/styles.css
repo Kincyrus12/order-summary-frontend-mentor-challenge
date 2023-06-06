@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@400;700&family=Red+Hat+Display:wght@500;700;900&family=Roboto:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat:repeat-x;
+    background-size:80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(225, 100%, 94%);
+    
+}
+
+
+
+.main{
+    background: #fff;
+    width: 320px;
+    display: block;
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 16px;
+}
+
+.main .hero{
+    width: 319px;
+    border-radius: 16px  16px 0  0;
+}
+
+.main h1{
+    font-size: 20px;
+    padding: .8rem;
+    font-weight: 900;
+}
+
+.main p{
+    font-size: 12px;
+    padding-bottom: 1.5rem;
+    margin:0 3rem;
+    font-weight: 500;
+}
+
+.music_plan{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: hsl(225, 100%, 98%);
+    margin:0 1.5rem;
+    padding:.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+}
+
+.music_plan img{
+    width: 35px;
+}
+.plan{
+    margin-right: 3rem;
+}
+
+.plan h2{
+    font-size: 14px;
+}
+
+.plan span{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.music_plan a{
+    font-size: 13px;
+    color: blue;
+}
+
+.music_plan a:hover{
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+.button_types{
+    display: flex;
+    flex-direction: column;
+    margin:1rem 2rem;
+}
+
+.button_pay{
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    background:  hsl(245, 75%, 52%);
+    border: none;
+    color: #fff;
+    box-shadow: 0 15px 15px 1px hsl(226, 79%, 95%);
+}
+
+.button_pay:hover{
+    background:  hsl(246, 88%, 67%);
+    cursor: pointer;
+    
+}
+.button_cancel{
+    margin-bottom: 1rem;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    border: none;
+    background: #fff;
+    font-weight:500;
+    font-size: 14px;
+}
+
+.button_cancel:hover{
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    
+}
+
+@media(max-width:420px){
+    body{
+        background: url(images/pattern-background-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(225, 100%, 94%);
+    }
+
+
+
+    .main h1{
+        padding: 1rem;
+    }
+    .main p{
+        line-height: 20px;
+        font-size: 11px;
+        margin: 0 1.2rem;
+    }
+    .button_pay{
+        margin-top: .5rem;
+        padding: 15px 0;
+    }
+}
