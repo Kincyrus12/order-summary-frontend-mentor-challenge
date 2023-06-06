@@ -26,7 +26,7 @@ body{
 
 .main{
     background: #fff;
-    width: 320px;
+    width: 350px;
     display: block;
     text-align: center;
     border: 1px solid white;
@@ -34,7 +34,7 @@ body{
 }
 
 .main .hero{
-    width: 319px;
+    width: 349px;
     border-radius: 16px  16px 0  0;
 }
 
@@ -45,9 +45,9 @@ body{
 }
 
 .main p{
-    font-size: 12px;
+    font-size: 13px;
     padding-bottom: 1.5rem;
-    margin:0 3rem;
+    margin:0 2rem;
     font-weight: 500;
 }
 
